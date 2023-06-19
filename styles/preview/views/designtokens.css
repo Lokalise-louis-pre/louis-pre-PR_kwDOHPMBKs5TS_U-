@@ -1,0 +1,4 @@
+/* ColorPalette width styling */
+.docblock-colorpalette > div > div:first-child {
+	flex: 0 0 15%;
+}

@@ -1,0 +1,7 @@
+@import '../config.css';
+@import './typography.css';
+@import './views/designtokens.css';
+
+pre {
+	tab-size: 4ch;
+}

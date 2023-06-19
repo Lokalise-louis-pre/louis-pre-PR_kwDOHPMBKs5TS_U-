@@ -1,0 +1,8 @@
+#storybook-root .os-theme-dark button[class^='css-'] {
+	color: var(--sb-theme-color-black);
+}
+
+#storybook-root .os-theme-dark button[class^='css-']:hover {
+	color: var(--sb-theme-color-black);
+	border-bottom-color: var(--sb-theme-color-lokalise-brand);
+}

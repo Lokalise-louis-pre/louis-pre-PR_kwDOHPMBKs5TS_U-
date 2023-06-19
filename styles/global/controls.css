@@ -1,0 +1,8 @@
+#storybook-root .os-theme-dark button[class^='tabbutton'] {
+	color: var(--sb-theme-color-black);
+}
+
+#storybook-root .os-theme-dark button[class^='tabbutton']:hover,
+#storybook-root .os-theme-dark button[class^='tabbutton']:focus {
+	border-bottom-color: var(--sb-theme-color-black);
+}

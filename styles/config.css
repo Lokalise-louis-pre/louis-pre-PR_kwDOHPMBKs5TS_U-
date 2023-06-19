@@ -1,0 +1,13 @@
+:root {
+	--sb-theme-color-white: #ffffff;
+	--sb-theme-color-black: #000000;
+	--sb-theme-color-light-grey: #e2e1e1;
+	--sb-theme-color-grey: #999999;
+	--sb-theme-color-dark-grey: #333333;
+	--sb-theme-color-lokalise-brand: #ffc500;
+	--sb-theme-small-text-size: 12px;
+	--sb-theme-default-text-size: 14px;
+	--sb-theme-motion-default: 150ms ease-out;
+	--sb-theme-font-family-default: 'Nunito Sans', -apple-system, '.SFNSText-Regular', 'San Francisco',
+		BlinkMacSystemFont, 'Segoe UI', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}

@@ -1,0 +1,8 @@
+@import '../config.css';
+@import './sidebar.css';
+@import './header.css';
+@import './controls.css';
+
+pre {
+	tab-size: 4ch;
+}

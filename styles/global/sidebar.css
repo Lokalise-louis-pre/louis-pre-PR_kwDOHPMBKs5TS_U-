@@ -1,0 +1,31 @@
+#storybook-explorer-tree .sidebar-subheading button[class^='css-']:hover {
+	color: var(--sb-theme-color-black);
+}
+
+#storybook-explorer-tree .sidebar-item {
+	padding-bottom: 8px;
+	padding-top: 8px;
+	transition: background-color var(--sb-theme-motion-default);
+}
+
+#storybook-explorer-tree .sidebar-item:hover:not([data-selected='true']) {
+	background-color: var(--sb-theme-color-light-grey);
+	color: var(--sb-theme-color-black);
+}
+
+#storybook-explorer-tree .sidebar-item[data-selected='true'] {
+	background-color: var(--sb-theme-color-lokalise-brand);
+	color: var(--sb-theme-color-black);
+}
+
+#storybook-explorer-tree .sidebar-item svg,
+#storybook-explorer-menu button svg {
+	display: none;
+}
+
+.sidebar-header a[title^='Louis']:after {
+	content: attr(title);
+	color: var(--sb-theme-color-grey);
+	font-size: var(--sb-theme-small-text-size);
+	font-style: italic;
+}
